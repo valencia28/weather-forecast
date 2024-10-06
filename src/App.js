@@ -15,8 +15,6 @@ const cities = ['Seoul', 'London', 'Sydney', 'Paris', 'New York'];
 const API_KEY = process.env.REACT_APP_API_KEY;
 
 function App() {
-
-  console.log("apikey: ", API_KEY)
   const [weather, setWeather] = useState(null);
   const [city, setCity] = useState('');
   const [loading, setLoading] = useState(false);
