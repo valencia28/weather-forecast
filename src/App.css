@@ -1,0 +1,66 @@
+body {
+    background: url(./images/clouds_background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+}
+
+/*전체 가운데 정렬*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative; 
+}
+
+/* 배경 투명한 검정색 오버레이 */
+.container::after {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+/*날씨 정보 보여주는 박스*/
+.weather-info-box{
+    z-index:100;
+    text-align: center;
+    color: white;
+}
+
+.location-name{
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.weather-info img{
+    width: 170px;
+    height: 170px;
+    color: white;
+}
+
+.weather-description{
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/*버튼*/
+.location-btn{
+    z-index: 100;
+    margin-top: 20px;
+}
+
+.btns{
+    margin-right: 5px;
+}
+
