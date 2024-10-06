@@ -3,4 +3,4 @@
 * Demo: https://val-weather.netlify.app/
 
 ## Functions
-* User can see the weather based on current location or city
+* Users can view the weather based on their current location or select a specific city.
