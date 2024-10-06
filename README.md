@@ -1,5 +1,6 @@
 <<<<<<< HEAD
-# Getting Started with Create React App
+# Weather Forecast
+![image](https://github.com/user-attachments/assets/d53d0b4f-2136-4cce-ac87-eb8739ef6a3c)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
