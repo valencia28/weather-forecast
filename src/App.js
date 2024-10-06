@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WeatherInfo from './component/WeatherInfo';
@@ -65,7 +64,7 @@ function App() {
   }
   
   useEffect(()=>{
-    if(city==''){
+    if(city===''){
       getCurrentLocation();
     }else{
       getWeatherByCity();
